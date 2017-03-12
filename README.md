@@ -9,6 +9,30 @@ Group Members:
 
 Project Created: March 11, 2017
 
+### Task List
+
+#### Anirban
+
+* Research cache parameter values for "Caches.py" file
+* Build 3-Level Cache Hierarchy
+* Build mult-core system (core count should be scalable)
+
+#### Karl
+
+*	Install gem5 in personal scratch directory
+*	Finish github repository setup
+*	Download and setup full-system simulations files (for X86)
+* Test X86 full system run
+* Test CPU swapping (simple & complex)
+* Test Checkpointing
+* Install CloudSuite
+* Checkpoint CloudSuite
+
+#### Chandru
+
+Get projections (detailed to added)
+
+
 ### Oveview
 
 
