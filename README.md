@@ -5,7 +5,7 @@ This repository contains files for the CS 7810 Advanced Architecture Project.
 Group Members:
 *	Anirban Nag
 * Karl Taht
-* Chandrashakar Narajan
+* Chandrasekhar Nagarajan
 
 Project Created: March 11, 2017
 
@@ -30,8 +30,9 @@ Project Created: March 11, 2017
 
 #### Chandru
 
-Get projections (detailed to added)
 
+*	Get traces from Ryan
+*	Discuss with Ryan's team about copy commands
 
 ### Oveview
 
