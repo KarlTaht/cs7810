@@ -19,9 +19,6 @@ Project Created: March 11, 2017
 
 #### Karl
 
-*	Install gem5 in personal scratch directory
-*	Finish github repository setup
-*	Download and setup full-system simulations files (for X86)
 * Test X86 full system run
 * Test CPU swapping (simple & complex)
 * Test Checkpointing
