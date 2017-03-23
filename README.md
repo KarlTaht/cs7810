@@ -9,6 +9,12 @@ Group Members:
 
 Project Created: March 11, 2017
 
+### Paper Presentations
+*	Karl    - R-NUCA: Data Placement in Distributed Caches
+* Anirban - FootPrint Cache (Unison Cache: A Scalable and Effective Die-Stacked DRAM Cache)
+* Chandru - Nahalal? 
+
+
 ### Task List
 
 #### Anirban
@@ -19,6 +25,7 @@ Project Created: March 11, 2017
 
 #### Karl
 
+* Read Through Caches
 * Test X86 full system run
 * Test CPU swapping (simple & complex)
 * Test Checkpointing
@@ -26,7 +33,6 @@ Project Created: March 11, 2017
 * Checkpoint CloudSuite
 
 #### Chandru
-
 
 *	Get traces from Ryan
 *	Discuss with Ryan's team about copy commands
