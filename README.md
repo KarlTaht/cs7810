@@ -11,8 +11,8 @@ Project Created: March 11, 2017
 
 ### Paper Presentations
 *	Karl    - R-NUCA: Data Placement in Distributed Caches
-* Anirban - FootPrint Cache (Unison Cache: A Scalable and Effective Die-Stacked DRAM Cache)
-* Chandru - Nahalal? 
+* Anirban - Something from Michigan
+* Chandru - FootPrint Cache 
 
 
 ### Task List
