@@ -127,6 +127,9 @@ def config_cache(options, system):
         system.l3.cpu_side = system.tol3bus.master
         system.l3.mem_side = system.membus.slave
     
+    if options.hmc_cache:
+        print 'Adding HMC Cache'
+
     for i in xrange(options.num_cpus):
         if options.caches:
             icache = icache_class(size=options.l1i_size,
@@ -177,8 +180,8 @@ def config_cache(options, system):
 
 
                 #Connect TLB Caches
-                system.cpu[i].dtb_walker_cache.mem_side = system.cpu[i].tol2bus.slave
-                system.cpu[i].itb_walker_cache.mem_side = system.cpu[i].tol2bus.slave
+                #system.cpu[i].dtb_walker_cache.mem_side = system.cpu[i].tol2bus.slave
+                #system.cpu[i].itb_walker_cache.mem_side = system.cpu[i].tol2bus.slave
 
                 #system.cpu[i].addPrivateSplitL1Caches(icache, dcache,
                 #                                     iwalkcache, dwalkcache)
@@ -194,6 +197,10 @@ def config_cache(options, system):
                 # Make sure connectAllPorts connects the right objects.
                 system.cpu[i].dcache = dcache_real
                 system.cpu[i].dcache_mon = dcache_mon
+
+
+				
+
 
         elif options.external_memory_system:
             # These port names are presented to whatever 'external' system

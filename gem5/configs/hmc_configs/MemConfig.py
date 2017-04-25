@@ -39,7 +39,7 @@
 import m5.objects
 import inspect
 import sys
-import Caches
+import HMC
 from textwrap import  TextWrapper
 
 # Dictionary of mapping names of real memory controller models to
@@ -224,6 +224,9 @@ def config_mem(options, system):
     # Connect the controllers to the membus
     for i in xrange(len(subsystem.mem_ctrls)):
         if (options.mem_type == "HMC_2500_1x32"):
-            subsystem.mem_ctrls[i].port = xbar[i/4].master
+            if(len(xbar) > 1):
+                subsystem.mem_ctrls[i].port = xbar[i/4].master
+            else:
+                subsystem.mem_ctrls[i].port = xbar[0].master
         else:
             subsystem.mem_ctrls[i].port = xbar.master

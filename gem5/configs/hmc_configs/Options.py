@@ -114,6 +114,10 @@ def addNoISAOptions(parser):
     parser.add_option("--l3_assoc", type="int", default=16)
     parser.add_option("--cacheline_size", type="int", default=64)
 
+    parser.add_option("--arch", type="string", default="same")
+    #parser.add_option("--mem_size", type="string", default="256MB")
+    parser.add_option("--hmc-cache", action="store_true")
+
     # Enable Ruby
     parser.add_option("--ruby", action="store_true")
 
@@ -128,6 +132,8 @@ def addNoISAOptions(parser):
     parser.add_option("--maxtime", type="float", default=None,
                       help="Run to the specified absolute simulated time in "
                       "seconds")
+
+    
 
 # Add common options that assume a non-NULL ISA.
 def addCommonOptions(parser):
